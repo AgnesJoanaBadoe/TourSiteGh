@@ -1,0 +1,293 @@
+/* styling the icons */
+.fa {
+    padding: 1px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+/* hover for the icons */
+.fa:hover {
+    opacity: 0.7;
+}
+/* colors for icons */
+.fa-facebook {
+    background: none;
+    color: #55acee;
+}
+.fa-instagram {
+    background: none;
+    color: #8a3ab9	;
+}
+.fa-linkedin-square {
+    background: none;
+    color: #0e76a8;
+}
+.fa-twitter {
+    background: none;
+    color: #00acee;
+}
+
+/* styling the menu section */
+.menu {
+    /* overflow: hidden; */
+    background-color: #add8ec;
+    padding: 20px 10px;
+    
+}
+.menu-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-right li {
+    list-style: none;
+}
+/* styling the menu links */
+.menu-right li > a {
+    /* float: right; */
+    /* text-align: right; */
+    color: black;
+    /* text-align: center; */
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    /* line-height: 25px; */
+    /* border-radius: 4px; */
+}
+/* styling the dropdown menu item */
+.dropdown {
+    overflow: hidden;
+    /* float: left; */
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+}
+.dropbutton {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+}
+.menu a:hover, .dropdown:hover .dropbtn  {
+    background-color: rgba(145, 145, 167, 0.747);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* left: 87px; */
+    /* background-color: #f9f9f9; */
+    /* min-width: 160px; */
+    /* z-index: 1; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+.dropbutton a:hover .dropdown-content{
+    display: block;
+}
+
+/* .dropdown-content a:hover {
+    background-color: #ddd;
+  } */
+  
+  /* .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+  * { 
+      box-sizing: border-box;
+    }
+  /* .carousel{
+      display: none;
+  } */
+  img{
+      /* vertical-align: auto; */
+  }
+
+  /* styling the carousel container */
+  .carousel-container {
+      /* height: 50px; */
+      position: relative;
+      margin: auto;
+  }
+  /* caption text */
+  .text {
+      color: white;
+      font-size: 30px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+  }
+
+  /* styling the dots */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.9s ease;
+  }
+  .active {
+      background-color: none;
+  }
+
+  /* this styles the fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+  /* this stles the cards */
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+    margin-left: 5px;
+    /* height: 100px; */
+  }
+  .heading{
+    margin-left: 10px;
+  }
+  .cardlocation{
+      color: grey;
+      margin-left: 10px;
+  }
+  .summary{
+      margin-left: 10px;
+  }
+  .card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    /* color: white; */
+    background-color: #add8e6;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px; 
+    text-decoration: none;
+  }
+  .read-more{
+    text-decoration: none; 
+    color: black;
+  }
+  .card button:hover{
+      opacity: 0.7;
+  }
+/* Arranging columns */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  /* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+/* removing extra margins due to padding */
+.row{
+    margin: 0 -5px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+/* styling the buttons */
+.button1 {
+    /* background-color: #add8e6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer; */
+
+    border: none;
+    outline: 0;
+    padding: 12px;
+    /* color: white; */
+    background-color: #add8e6;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px; 
+    text-decoration: none;
+  }
+
+
+  /* Historical Sites Button */
+
+/* position: absolute;
+width: 300px;
+height: 59px;
+left: 303px;
+top: 777px; */
+
+
+
+/* Rectangle 6 */
+
+/* position: absolute;
+width: 300px;
+height: 59px;
+left: 303px;
+top: 777px;
+
+background: #ADD8EC;
+border-radius: 13px; */
+
+
+/* Historical Sites */
+
+/* position: absolute;
+width: 275px;
+height: 47px;
+left: 316px;
+top: 783px; */
+
+/* font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px; */
+/* identical to box height */
+
+/* color: #000000; */
+
+
