@@ -102,9 +102,9 @@
   /* .carousel{
       display: none;
   } */
-  img{
-      /* vertical-align: auto; */
-  }
+  /* img{
+      vertical-align: auto;
+  } */
 
   /* styling the carousel container */
   .carousel-container {
@@ -202,18 +202,19 @@
 .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: 30px;
+    height: 300px;
   }
   /* Clear floats after the columns */
-/* .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  } */
+  }
   
 /* removing extra margins due to padding */
 .row{
-    margin: 0 -5px;
+    margin-bottom: 205px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -250,44 +251,54 @@
     text-decoration: none;
   }
 
+  .left{
+    text-align:left;
+    float:left;
+    }
+    .right{
+    float:right;
+    text-align:right;
+    }
+    .centered{
+    text-align:center;
+    }
 
-  /* Historical Sites Button */
+    /* #footer {
+      display: table;
+      max-width: 60em;
+      padding: 1.25em;
+      margin: 0 auto;
+      border: 0.062em solid #151515;
+      background-color: #f2f2f2;
+      color:  #151515;
+   }
+  
+  #footer div {
+      display: table-cell;
+      width: 33.333%;
+      padding: 1em;
+      text-align: center;
+  }
+  
+  #footer div h2 {
+      text-align: center;
+   }
+  
+  #footer div:nth-of-type(2) {
+      border-right: 0.062em dotted #999;
+      border-left: 0.062em dotted #999;
+   }
+  
+  #footer div:nth-of-type(3) {
+      text-align: left;
+   } */
 
-/* position: absolute;
-width: 300px;
-height: 59px;
-left: 303px;
-top: 777px; */
+   /* #footer {
+     background-color: #add8ec;
+   } */
 
-
-
-/* Rectangle 6 */
-
-/* position: absolute;
-width: 300px;
-height: 59px;
-left: 303px;
-top: 777px;
-
-background: #ADD8EC;
-border-radius: 13px; */
-
-
-/* Historical Sites */
-
-/* position: absolute;
-width: 275px;
-height: 47px;
-left: 316px;
-top: 783px; */
-
-/* font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 47px; */
-/* identical to box height */
-
-/* color: #000000; */
-
-
+   .copyright {
+     text-align: center;
+     margin-left: 100px;
+   }
+  }
